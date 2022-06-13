@@ -15,7 +15,7 @@ public class Main {
         ürününfiyatı = input.nextDouble();
 
         System.out.println("ürünün fiyatı : " + ürününfiyatı);
-        kdv = (0<ürününfiyatı) && (ürününfiyatı<1000) ? 0.18 : 0.081;
+        kdv = (0<ürününfiyatı) && (ürününfiyatı<1000) ? 0.18 : 0.08;
 
         double ürününkdvlifiyatı = (ürününfiyatı * kdv) + ürününfiyatı;
         System.out.println("ürünün kdvli fiyatı" + ürününkdvlifiyatı);
